@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: var(--background-color);
+
+    --background-color: rgb(30,30,30);
+    --topnav-backcolor: #2d394b;
+    --topnav-forecolor: white;
+    --topnav-hover-forecolor: #40e0d0;
+    --text-color: white;
+    --card-backcolor: #2d394b;
+    --card-backcolor-hover: #21726A;
+    --table-backcolor: #21726A;
+    --paragraph-color: #aaaaaa;
+    --date-color: rgb(120, 120, 120);
+    --title-color: #40e0d0;
+    --link-color: #2f67ff;
+    --avatar-backcolor: blue;
+    --icon-color: white;
+    --icon-hover-color: #40e0d0;
+    --tab-color: rgb(120, 120, 120);
+    --tab-color-focus: steelblue;
+    --dialog-background: white;
+    --header-color: white;
+    --btn-backcolor: #21726A;
+    --btn-backcolor-hover: #33b3a6;
+    --brand-color: #40e0d0;
+    --time-color: #cccccc;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: var(--topnav-backcolor);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: var(--topnav-forecolor);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    color: var(--topnav-hover-forecolor);
+    transition: 0.5s;
+}
+
+.navbar li {
+    float: left;
+}
+
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* home */
+
+.large-header {
+    font-size: 64px;
+    font-weight: 500;
+    color: var(--header-color);
+}
+
+.medium-header {
+    font-size: 48px;
+    font-weight: 500;
+    color: var(--header-color);
+}
+
+.icon-link {
+    color: var(--icon-color);
+    transition: 0.5s;
+}
+
+.icon-link:hover {
+    color: var(--icon-hover-color);
+    transition: all 0.5s ease-out;
+}
+
+.btn {
+    font-size: large;
+    color: var(--text-color);
+    background-color: var(--btn-backcolor);
+}
+
+.btn:hover {
+    background-color: var(--btn-backcolor-hover);
+    transition: all 0.5s ease-out;
+}
+
+/* about */
+
+h1, h2, h3, h4 {
+    color: var(--text-color);
+}
+
+p {
+    font-size: x-large;
+    text-align: justify;
+    color: var(--paragraph-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+.bio-image {
+    border-radius: 5%;
+    scale: 50%;
+}
