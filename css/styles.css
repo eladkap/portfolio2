@@ -21,6 +21,7 @@ body {
     --avatar-backcolor: blue;
     --icon-color: white;
     --icon-hover-color: #40e0d0;
+    --active-page-bg: green;
     --tab-color: rgb(120, 120, 120);
     --tab-color-focus: steelblue;
     --dialog-background: white;
@@ -53,7 +54,12 @@ body {
 }
 
 .navbar li {
+    font-size: x-large;
     float: left;
+}
+
+.navbar ul li a.active-page {
+    background-color: var(--active-page-bg);
 }
 
 .container {
