@@ -69,6 +69,10 @@ body {
     margin-right: 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* headers */
 h1 {
     font-size: 42px;
