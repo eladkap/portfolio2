@@ -74,6 +74,11 @@ a {
 }
 
 /* headers */
+h1, h2, h3, h4 {
+    color: var(--text-color);
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
 h1 {
     font-size: 42px;
 }
@@ -88,6 +93,10 @@ h3 {
 
 h4 {
     font-size: 18px;
+}
+
+h5 {
+    font-size: 14px;
 }
 
 /* home */
@@ -125,4 +134,27 @@ h4 {
 .btn:hover {
     background-color: var(--btn-backcolor-hover);
     transition: all 0.5s ease-out;
+}
+
+.btn,
+.btn-dark {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem;
+  width: fit-content;
+  max-width: 250px;
+  font-size: x-large;
+  border-radius: 50px;
+}
+
+.btn:hover,
+.btn-dark:hover {
+  background: #39c9bb;
+  color: black;
+}
+
+.btn-dark {
+  background: var(--topnav-backcolor);;
+  color: white;
 }
